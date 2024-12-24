@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section" >
+        <div class="brand">Nick Mine Inc.</div>
+        <div class="logo"></div>
+      </div>
+      <div class="right-section">
+        <div class="right-section-form">
+          <div class="flag-uk">
+            <img src="./images/image.png" />
+          </div>
+        </div>
+        <div class="form-container">
+          <h1>Create an account<span>.</span></h1>
+          <h4>Already have an account? <span>Sign in</span></h4>
+          <form>
+            <div class="form-group">
+              <label for="user-id">User ID</label>
+              <div class="group-input">
+                <div class="icon user"></div>
+                <input type="text" id="user-id" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+
+              <div class="group-input">
+                <div class="icon password"></div>
+                <input type="password" id="password" />
+              </div>
+
+              <div class="error-input">8 characters minimun</div>
+            </div>
+            <div class="form-group">
+              <label for="account-name">Account Name</label>
+              <div class="group-input">
+                <div class="icon name"></div>
+                <input type="text" id="account-name" />
+              </div>
+              <div class="error-input">Visible nickname for your profile</div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <div class="group-input">
+                <div class="icon mail"></div>
+                <button>Resend (60s)</button>
+                <input type="email" id="email" />
+              </div>
+              <div class="error-input"></div>
+            </div>
+            <div class="form-group">
+              <label for="verification-code">Verification Code</label>
+              <div class="group-input">
+                <div class="icon mail"></div>
+                <input type="text" id="verification-code" />
+              </div>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="terms" />
+              <label for="terms">
+                [Required] I read the <a href="#">Terms of Service</a> and agree
+                to the terms.</label
+              >
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="privacy" />
+              <label for="privacy"
+                >[Required] I read the <a href="#">Privacy Policy</a> and agree
+                to the terms.</label
+              >
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="promotions" />
+              <label for="promotions"
+                >[Optional] I would like to receive promotional emails.</label
+              >
+            </div>
+            <button type="submit" class="btn">Create Account</button>
+          </form>
+          <div class="footer">
+            <div class="promo-code">
+              <div></div>
+              Have Promo Code?
+            </div>
+            <div class="contact-support">Contact Support</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
